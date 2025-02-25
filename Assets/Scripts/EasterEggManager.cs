@@ -11,6 +11,9 @@ public class EasterEggManager : MonoBehaviour
 
     [Header("Images de l'easter egg (SpriteRenderer)")]
     [SerializeField] private List<GameObject> _imageObjects;
+    
+    [Header("Sound Effect")]
+    [SerializeField] private AudioSource _easterEggSound;
 
     private int _comboIndex;
 
@@ -65,6 +68,7 @@ public class EasterEggManager : MonoBehaviour
     private IEnumerator ShowImageCoroutine(GameObject imageObject)
     {
         imageObject.SetActive(true);
+        _easterEggSound.Play();
         yield return new WaitForSeconds(_displayTime);
         imageObject.SetActive(false);
     }
