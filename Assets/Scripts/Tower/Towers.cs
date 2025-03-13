@@ -13,7 +13,7 @@ public class Towers : MonoBehaviour
     
     
     //Private field
-    private List<Enemy> _ennemiesList;
+    private List<Enemy> _ennemiesList = new();
     public List<Enemy> EnemiesList { get => _ennemiesList; }
 
 
