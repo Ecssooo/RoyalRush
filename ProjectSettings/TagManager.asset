@@ -6,6 +6,7 @@ TagManager:
   tags:
   - base
   - Enemy
+  - bounds
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Tower
+  - Ammo
   - 
   - 
   - 

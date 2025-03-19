@@ -1,0 +1,23 @@
+# ninja log v5
+12	1672	7584808908595059	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a1b3c032f243d289
+52	448	7584808896332431	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6a31f976705772e5
+18	1632	7584808908267940	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6b10495fff014784
+451	635	7584808898200231	C:/Users/alexa/Game/MiniMobile/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5g723y5b/obj/arm64-v8a/libswappywrapper.so	3db81f3ac30ad114
+45	1369	7584808905601477	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	84df5f01fdcc218d
+6	1245	7584808904359243	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c4967dc2f3ba4961
+29	1247	7584808904318782	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4bacfccabb73247a
+23	1300	7584808904869421	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b0e208dce35cb81b
+1	1377	7584808905657681	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	b5e126568ccf2717
+36	1370	7584808905601477	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	13f4a2ddf5777783
+1672	1775	7584808909726671	C:/Users/alexa/Game/MiniMobile/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5g723y5b/obj/arm64-v8a/libgame.so	14a7b6afaac2cbf4
+103	272	7584812178710227	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6a31f976705772e5
+272	458	7584812180568325	C:/Users/alexa/Game/MiniMobile/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5g723y5b/obj/arm64-v8a/libswappywrapper.so	3db81f3ac30ad114
+27	677	7584812182672671	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4bacfccabb73247a
+37	677	7584812182672671	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c4967dc2f3ba4961
+89	678	7584812182672671	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b0e208dce35cb81b
+82	685	7584812182793211	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	13f4a2ddf5777783
+98	735	7584812183308436	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	84df5f01fdcc218d
+10	752	7584812183489864	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	b5e126568ccf2717
+93	855	7584812184546285	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6b10495fff014784
+21	915	7584812185105165	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a1b3c032f243d289
+915	1031	7584812186334033	C:/Users/alexa/Game/MiniMobile/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5g723y5b/obj/arm64-v8a/libgame.so	14a7b6afaac2cbf4
