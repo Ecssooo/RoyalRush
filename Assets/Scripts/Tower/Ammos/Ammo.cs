@@ -48,4 +48,9 @@ public class Ammo : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    public virtual void Hit(Enemy enemy)
+    {
+        enemy.TakeDamage(_damage);
+    }
 }

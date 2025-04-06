@@ -66,12 +66,10 @@ public class Towers : MonoBehaviour
     {
         if (_ennemiesList.Count == 0) return;
 
-        // -------------- AJOUT --------------
         if (_attackAudioSource)
         {
             _attackAudioSource.Play();
         }
-        // -----------------------------------
 
         var ammoGO = Instantiate(_ammo, transform);
         Ammo ammo = ammoGO.GetComponentInChildren<Ammo>();

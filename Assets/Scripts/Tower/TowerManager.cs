@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerController : MonoBehaviour
+public class TowerManager : MonoBehaviour
 {
     #region Instance
 
-    private static TowerController _instance;
-    public static TowerController Instance { get => _instance; }
+    private static TowerManager _instance;
+    public static TowerManager Instance { get => _instance; }
     
     public virtual void Awake()
     {

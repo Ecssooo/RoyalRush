@@ -17,7 +17,7 @@ public class Slots : MonoBehaviour, IDropHandler
             this.GetComponent<Image>().enabled = false;
             var tower = Instantiate(dragObject.ObjectPrefab, _slotInWorld);
             GameManager.Instance.MoneyController.SubMoney(dragObject.Cost);
-            TowerController.Instance.TowerList.Add(tower);
+            TowerManager.Instance.TowerList.Add(tower);
         }
     }
 

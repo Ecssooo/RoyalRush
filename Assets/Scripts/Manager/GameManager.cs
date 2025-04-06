@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameStates.Setup:
                 _enemyController.ResetWave();
-                TowerController.Instance.ResetTower();
+                TowerManager.Instance.ResetTower();
                 break;
             case GameStates.Battle:
                 UIController.Instance.BlockShop(true);
@@ -87,8 +87,8 @@ public class GameManager : MonoBehaviour
     {
         s_gameState = GameStates.End;
         _enemyController.ResetWave();
-        TowerController.Instance.ResetTower();
-        TowerController.Instance.DeleteAllTower();
+        TowerManager.Instance.ResetTower();
+        TowerManager.Instance.DeleteAllTower();
         if (!_baseController.BaseAlive)
         {
             UIController.Instance.DisableAllUI();

@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2800720253078198688}
-  - component: {fileID: 2244636923880415257}
   - component: {fileID: 2170077339666373592}
   - component: {fileID: 7815596250034493040}
   - component: {fileID: 440279023742127888}
+  - component: {fileID: 6999896979062205671}
   m_Layer: 7
   m_Name: Spell
   m_TagString: Untagged
@@ -35,23 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2244636923880415257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2948135132530425333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc8f0287a249b91408367989c5236fc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 450
-  _damage: 45
-  _rb: {fileID: 2170077339666373592}
-  _ennemyAttach: {fileID: 0}
-  _hitAudioSource: {fileID: 0}
 --- !u!50 &2170077339666373592
 Rigidbody2D:
   serializedVersion: 5
@@ -180,3 +163,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6999896979062205671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2948135132530425333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2ab558a4eea6f43aadb394ca0916bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 450
+  _damage: 45
+  _rb: {fileID: 2170077339666373592}
+  _hitAudioSource: {fileID: 0}

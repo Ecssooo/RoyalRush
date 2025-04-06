@@ -413,7 +413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ammo: {fileID: 2948135132530425333, guid: 3cb342b1015afc64da85e4864e5191b0, type: 3}
-  _ennemiesList: []
   _shootDelay: 1.75
   _ammoList: []
   _attackAudioSource: {fileID: 3665798725053008973}
